@@ -135,9 +135,4 @@ for (let i = 5; i >= 1; i--){
 
 */
 
-for (let i = 1; i < 10; i++) {
-  for (let n = 1; n < i; n++) {
-    document.write(n); 
-  }
-  document.write('<br>')
-}
+
