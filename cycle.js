@@ -114,3 +114,30 @@ for (let i = 5; i >= 1; i--){
 5432
 54321
 */
+
+
+
+/*
+for (let i = 5; i >= 1; i--){
+  console.log(i);
+  for (let k = 5; k >= 1; k--){
+    document.write(k);
+  }
+
+  document.write('<br>');
+}
+
+54321
+54321
+54321
+54321
+54321
+
+*/
+
+for (let i = 1; i < 10; i++) {
+  for (let n = 1; n < i; n++) {
+    document.write(n); 
+  }
+  document.write('<br>')
+}
